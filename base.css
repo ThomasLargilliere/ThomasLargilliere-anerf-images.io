@@ -1,0 +1,45 @@
+:root{
+	--primary-color: purple;
+    --secondary-color: blue;
+    --text-color: rosybrown;
+    --primary-color-opacity: rgba(0, 0, 0, .3);
+    --secondary-color-opacity: rgba(100, 100, 100, .3);
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.absolute-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    margin: 0 auto;
+}
